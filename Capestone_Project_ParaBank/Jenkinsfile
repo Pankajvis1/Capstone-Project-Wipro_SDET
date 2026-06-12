@@ -1,0 +1,75 @@
+pipeline {
+    agent any
+
+    tools {
+        jdk 'Jdk 21'
+        maven 'Maven3'
+    }
+
+    stages {
+
+        stage('Checkout') {
+            steps {
+                git branch: 'master',
+                    url: 'https://github.com/Pankajvis2/Capstone_Project.git'
+            }
+        }
+
+        stage('Build') {
+            steps {
+                dir('Capestone_Project_ParaBank') {
+                    sh 'mvn clean compile' 
+                }
+            }
+        }
+
+        stage('Test') {
+            steps {
+                dir('Capestone_Project_ParaBank') {
+                    sh 'mvn test'
+                }
+            }
+        }
+
+		stage('Check Docker') {
+    		steps {
+        		sh 'echo $PATH'
+        		sh 'ls -l /usr/local/bin/docker'
+        		sh '/usr/local/bin/docker --version'
+    		}
+		}
+		
+        stage('Docker Build') {
+            steps {
+                dir('Capestone_Project_ParaBank') {
+                    sh '/usr/local/bin/docker build --no-cache --platform linux/amd64 -t parabank-framework .'
+                }
+            }
+        }
+
+        stage('Docker Run') {
+            steps {
+                sh '/usr/local/bin/docker run --rm --platform linux/amd64 --shm-size=2g parabank-framework'
+            }
+        }
+    }
+
+    post {
+
+        success {
+            echo 'Build Successful'
+        }
+
+        failure {
+            echo 'Build Failed'
+        }
+
+        always {
+            junit allowEmptyResults: true,
+                  testResults: 'Capestone_Project_ParaBank/target/surefire-reports/*.xml'
+
+            archiveArtifacts artifacts: 'Capestone_Project_ParaBank/reports/**/*, Capestone_Project_ParaBank/logs/**/*, Capestone_Project_ParaBank/screenshots/**/*, Capestone_Project_ParaBank/allure-results/**/*, Capestone_Project_ParaBank/test-output/**/*',
+                             allowEmptyArchive: true
+        }
+    }
+}
