@@ -1,51 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-11T17:00:48 IST" name="Default suite" finished-at="2026-06-11T17:01:54 IST" duration-ms="65372">
+  <suite started-at="2026-06-13T11:30:15 IST" name="ParaBank Selenium TestNG Suite" finished-at="2026-06-13T11:31:47 IST" duration-ms="92667">
     <groups>
+      <group name="loan">
+        <method signature="NegativeTest.bug004_requestLoanAllowsNegativeDownPayment(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:test.NegativeTest@3fffff43]" name="bug004_requestLoanAllowsNegativeDownPayment" class="test.NegativeTest"/>
+      </group> <!-- loan -->
       <group name="negative">
-        <method signature="ParaBankTest.invalidLoginTest(java.lang.String,java.lang.String)[pri:2, instance:test.ParaBankTest@201b6b6f]" name="invalidLoginTest" class="test.ParaBankTest"/>
+        <method signature="NegativeTest.bug001_transferFundsAllowsNegativeAmount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:test.NegativeTest@3fffff43]" name="bug001_transferFundsAllowsNegativeAmount" class="test.NegativeTest"/>
+        <method signature="NegativeTest.bug002_billPaymentAllowsNegativeAmount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:test.NegativeTest@3fffff43]" name="bug002_billPaymentAllowsNegativeAmount" class="test.NegativeTest"/>
+        <method signature="ParaBankTest.invalidLoginTest(java.lang.String,java.lang.String)[pri:2, instance:test.ParaBankTest@15cafec7]" name="invalidLoginTest" class="test.ParaBankTest"/>
+        <method signature="NegativeTest.bug003_transferFundsAllowsSameSourceAndDestinationAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:test.NegativeTest@3fffff43]" name="bug003_transferFundsAllowsSameSourceAndDestinationAccount" class="test.NegativeTest"/>
+        <method signature="NegativeTest.bug004_requestLoanAllowsNegativeDownPayment(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:test.NegativeTest@3fffff43]" name="bug004_requestLoanAllowsNegativeDownPayment" class="test.NegativeTest"/>
       </group> <!-- negative -->
       <group name="account-services">
-        <method signature="ParaBankTest.findTransactionTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:test.ParaBankTest@201b6b6f]" name="findTransactionTest" class="test.ParaBankTest"/>
-        <method signature="ParaBankTest.updateContactInfoTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:test.ParaBankTest@201b6b6f]" name="updateContactInfoTest" class="test.ParaBankTest"/>
-        <method signature="ParaBankTest.requestLoanTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:9, instance:test.ParaBankTest@201b6b6f]" name="requestLoanTest" class="test.ParaBankTest"/>
+        <method signature="ParaBankTest.findTransactionTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:test.ParaBankTest@15cafec7]" name="findTransactionTest" class="test.ParaBankTest"/>
+        <method signature="ParaBankTest.updateContactInfoTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:test.ParaBankTest@15cafec7]" name="updateContactInfoTest" class="test.ParaBankTest"/>
+        <method signature="ParaBankTest.requestLoanTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:9, instance:test.ParaBankTest@15cafec7]" name="requestLoanTest" class="test.ParaBankTest"/>
       </group> <!-- account-services -->
+      <group name="transfer">
+        <method signature="NegativeTest.bug001_transferFundsAllowsNegativeAmount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:test.NegativeTest@3fffff43]" name="bug001_transferFundsAllowsNegativeAmount" class="test.NegativeTest"/>
+        <method signature="NegativeTest.bug003_transferFundsAllowsSameSourceAndDestinationAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:test.NegativeTest@3fffff43]" name="bug003_transferFundsAllowsSameSourceAndDestinationAccount" class="test.NegativeTest"/>
+      </group> <!-- transfer -->
+      <group name="billpay">
+        <method signature="NegativeTest.bug002_billPaymentAllowsNegativeAmount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:test.NegativeTest@3fffff43]" name="bug002_billPaymentAllowsNegativeAmount" class="test.NegativeTest"/>
+      </group> <!-- billpay -->
+      <group name="bug">
+        <method signature="NegativeTest.bug001_transferFundsAllowsNegativeAmount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:test.NegativeTest@3fffff43]" name="bug001_transferFundsAllowsNegativeAmount" class="test.NegativeTest"/>
+        <method signature="NegativeTest.bug002_billPaymentAllowsNegativeAmount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:test.NegativeTest@3fffff43]" name="bug002_billPaymentAllowsNegativeAmount" class="test.NegativeTest"/>
+        <method signature="NegativeTest.bug003_transferFundsAllowsSameSourceAndDestinationAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:test.NegativeTest@3fffff43]" name="bug003_transferFundsAllowsSameSourceAndDestinationAccount" class="test.NegativeTest"/>
+        <method signature="NegativeTest.bug004_requestLoanAllowsNegativeDownPayment(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:test.NegativeTest@3fffff43]" name="bug004_requestLoanAllowsNegativeDownPayment" class="test.NegativeTest"/>
+      </group> <!-- bug -->
       <group name="regression">
-        <method signature="ParaBankTest.openNewSavingsAccountTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:test.ParaBankTest@201b6b6f]" name="openNewSavingsAccountTest" class="test.ParaBankTest"/>
-        <method signature="ParaBankTest.transferFundsTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:test.ParaBankTest@201b6b6f]" name="transferFundsTest" class="test.ParaBankTest"/>
-        <method signature="ParaBankTest.billPaymentTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:test.ParaBankTest@201b6b6f]" name="billPaymentTest" class="test.ParaBankTest"/>
-        <method signature="ParaBankTest.findTransactionTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:test.ParaBankTest@201b6b6f]" name="findTransactionTest" class="test.ParaBankTest"/>
-        <method signature="ParaBankTest.updateContactInfoTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:test.ParaBankTest@201b6b6f]" name="updateContactInfoTest" class="test.ParaBankTest"/>
-        <method signature="ParaBankTest.requestLoanTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:9, instance:test.ParaBankTest@201b6b6f]" name="requestLoanTest" class="test.ParaBankTest"/>
+        <method signature="ParaBankTest.openNewSavingsAccountTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:test.ParaBankTest@15cafec7]" name="openNewSavingsAccountTest" class="test.ParaBankTest"/>
+        <method signature="ParaBankTest.transferFundsTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:test.ParaBankTest@15cafec7]" name="transferFundsTest" class="test.ParaBankTest"/>
+        <method signature="ParaBankTest.billPaymentTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:test.ParaBankTest@15cafec7]" name="billPaymentTest" class="test.ParaBankTest"/>
+        <method signature="ParaBankTest.findTransactionTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:test.ParaBankTest@15cafec7]" name="findTransactionTest" class="test.ParaBankTest"/>
+        <method signature="ParaBankTest.updateContactInfoTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:test.ParaBankTest@15cafec7]" name="updateContactInfoTest" class="test.ParaBankTest"/>
+        <method signature="ParaBankTest.requestLoanTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:9, instance:test.ParaBankTest@15cafec7]" name="requestLoanTest" class="test.ParaBankTest"/>
       </group> <!-- regression -->
       <group name="smoke">
-        <method signature="ParaBankTest.registerNewCustomer(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:test.ParaBankTest@201b6b6f]" name="registerNewCustomer" class="test.ParaBankTest"/>
-        <method signature="ParaBankTest.validLoginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:test.ParaBankTest@201b6b6f]" name="validLoginTest" class="test.ParaBankTest"/>
-        <method signature="ParaBankTest.logoutTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:10, instance:test.ParaBankTest@201b6b6f]" name="logoutTest" class="test.ParaBankTest"/>
+        <method signature="ParaBankTest.registerNewCustomer(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:test.ParaBankTest@15cafec7]" name="registerNewCustomer" class="test.ParaBankTest"/>
+        <method signature="ParaBankTest.validLoginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:test.ParaBankTest@15cafec7]" name="validLoginTest" class="test.ParaBankTest"/>
+        <method signature="ParaBankTest.logoutTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:10, instance:test.ParaBankTest@15cafec7]" name="logoutTest" class="test.ParaBankTest"/>
       </group> <!-- smoke -->
       <group name="registration">
-        <method signature="ParaBankTest.registerNewCustomer(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:test.ParaBankTest@201b6b6f]" name="registerNewCustomer" class="test.ParaBankTest"/>
+        <method signature="ParaBankTest.registerNewCustomer(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:test.ParaBankTest@15cafec7]" name="registerNewCustomer" class="test.ParaBankTest"/>
       </group> <!-- registration -->
       <group name="login">
-        <method signature="ParaBankTest.validLoginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:test.ParaBankTest@201b6b6f]" name="validLoginTest" class="test.ParaBankTest"/>
+        <method signature="ParaBankTest.validLoginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:test.ParaBankTest@15cafec7]" name="validLoginTest" class="test.ParaBankTest"/>
       </group> <!-- login -->
     </groups>
-    <test started-at="2026-06-11T17:00:48 IST" name="Default test" finished-at="2026-06-11T17:01:54 IST" duration-ms="65372">
+    <test started-at="2026-06-13T11:30:15 IST" name="ParaBank Regression Tests" finished-at="2026-06-13T11:31:47 IST" duration-ms="92667">
       <class name="test.ParaBankTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:test.ParaBankTest@201b6b6f]" started-at="2026-06-11T17:00:48 IST" name="setUp" finished-at="2026-06-11T17:00:54 IST" duration-ms="5430" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:test.ParaBankTest@15cafec7]" started-at="2026-06-13T11:30:15 IST" name="setUp" finished-at="2026-06-13T11:30:20 IST" duration-ms="5097" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="registerNewCustomer(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:test.ParaBankTest@201b6b6f]" started-at="2026-06-11T17:00:54 IST" name="registerNewCustomer" data-provider="registrationData" finished-at="2026-06-11T17:00:56 IST" duration-ms="1766" status="PASS">
+        <test-method signature="registerNewCustomer(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:test.ParaBankTest@15cafec7]" started-at="2026-06-13T11:30:20 IST" name="registerNewCustomer" data-provider="registrationData" finished-at="2026-06-13T11:30:22 IST" duration-ms="2036" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -101,22 +121,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerNewCustomer -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.ParaBankTest@201b6b6f]" started-at="2026-06-11T17:00:56 IST" name="tearDown" finished-at="2026-06-11T17:00:56 IST" duration-ms="97" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.ParaBankTest@15cafec7]" started-at="2026-06-13T11:30:22 IST" name="tearDown" finished-at="2026-06-13T11:30:22 IST" duration-ms="102" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:test.ParaBankTest@201b6b6f]" started-at="2026-06-11T17:00:56 IST" name="setUp" finished-at="2026-06-11T17:00:57 IST" duration-ms="1670" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:test.ParaBankTest@15cafec7]" started-at="2026-06-13T11:30:22 IST" name="setUp" finished-at="2026-06-13T11:30:25 IST" duration-ms="2601" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="invalidLoginTest(java.lang.String,java.lang.String)[pri:2, instance:test.ParaBankTest@201b6b6f]" started-at="2026-06-11T17:00:57 IST" name="invalidLoginTest" data-provider="invalidLoginData" finished-at="2026-06-11T17:01:00 IST" duration-ms="2022" status="PASS">
+        <test-method signature="invalidLoginTest(java.lang.String,java.lang.String)[pri:2, instance:test.ParaBankTest@15cafec7]" started-at="2026-06-13T11:30:25 IST" name="invalidLoginTest" data-provider="invalidLoginData" finished-at="2026-06-13T11:30:27 IST" duration-ms="2467" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -132,22 +152,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.ParaBankTest@201b6b6f]" started-at="2026-06-11T17:01:00 IST" name="tearDown" finished-at="2026-06-11T17:01:00 IST" duration-ms="88" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.ParaBankTest@15cafec7]" started-at="2026-06-13T11:30:27 IST" name="tearDown" finished-at="2026-06-13T11:30:27 IST" duration-ms="169" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:test.ParaBankTest@201b6b6f]" started-at="2026-06-11T17:01:00 IST" name="setUp" finished-at="2026-06-11T17:01:02 IST" duration-ms="2584" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:test.ParaBankTest@15cafec7]" started-at="2026-06-13T11:30:27 IST" name="setUp" finished-at="2026-06-13T11:30:29 IST" duration-ms="1601" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="invalidLoginTest(java.lang.String,java.lang.String)[pri:2, instance:test.ParaBankTest@201b6b6f]" started-at="2026-06-11T17:01:02 IST" name="invalidLoginTest" data-provider="invalidLoginData" finished-at="2026-06-11T17:01:03 IST" duration-ms="915" status="PASS">
+        <test-method signature="invalidLoginTest(java.lang.String,java.lang.String)[pri:2, instance:test.ParaBankTest@15cafec7]" started-at="2026-06-13T11:30:29 IST" name="invalidLoginTest" data-provider="invalidLoginData" finished-at="2026-06-13T11:30:31 IST" duration-ms="2020" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -163,22 +183,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.ParaBankTest@201b6b6f]" started-at="2026-06-11T17:01:03 IST" name="tearDown" finished-at="2026-06-11T17:01:03 IST" duration-ms="89" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.ParaBankTest@15cafec7]" started-at="2026-06-13T11:30:31 IST" name="tearDown" finished-at="2026-06-13T11:30:31 IST" duration-ms="94" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:test.ParaBankTest@201b6b6f]" started-at="2026-06-11T17:01:03 IST" name="setUp" finished-at="2026-06-11T17:01:04 IST" duration-ms="1215" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:test.ParaBankTest@15cafec7]" started-at="2026-06-13T11:30:31 IST" name="setUp" finished-at="2026-06-13T11:30:33 IST" duration-ms="1554" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="invalidLoginTest(java.lang.String,java.lang.String)[pri:2, instance:test.ParaBankTest@201b6b6f]" started-at="2026-06-11T17:01:04 IST" name="invalidLoginTest" data-provider="invalidLoginData" finished-at="2026-06-11T17:01:07 IST" duration-ms="2871" status="PASS">
+        <test-method signature="invalidLoginTest(java.lang.String,java.lang.String)[pri:2, instance:test.ParaBankTest@15cafec7]" started-at="2026-06-13T11:30:33 IST" name="invalidLoginTest" data-provider="invalidLoginData" finished-at="2026-06-13T11:30:35 IST" duration-ms="2307" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -194,22 +214,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.ParaBankTest@201b6b6f]" started-at="2026-06-11T17:01:07 IST" name="tearDown" finished-at="2026-06-11T17:01:07 IST" duration-ms="88" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.ParaBankTest@15cafec7]" started-at="2026-06-13T11:30:35 IST" name="tearDown" finished-at="2026-06-13T11:30:35 IST" duration-ms="85" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:test.ParaBankTest@201b6b6f]" started-at="2026-06-11T17:01:07 IST" name="setUp" finished-at="2026-06-11T17:01:11 IST" duration-ms="3146" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:test.ParaBankTest@15cafec7]" started-at="2026-06-13T11:30:35 IST" name="setUp" finished-at="2026-06-13T11:30:38 IST" duration-ms="2570" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validLoginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:test.ParaBankTest@201b6b6f]" started-at="2026-06-11T17:01:11 IST" name="validLoginTest" data-provider="registrationData" finished-at="2026-06-11T17:01:12 IST" duration-ms="1785" status="PASS">
+        <test-method signature="validLoginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:test.ParaBankTest@15cafec7]" started-at="2026-06-13T11:30:38 IST" name="validLoginTest" data-provider="registrationData" finished-at="2026-06-13T11:30:40 IST" duration-ms="2028" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -265,22 +285,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.ParaBankTest@201b6b6f]" started-at="2026-06-11T17:01:12 IST" name="tearDown" finished-at="2026-06-11T17:01:12 IST" duration-ms="90" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.ParaBankTest@15cafec7]" started-at="2026-06-13T11:30:40 IST" name="tearDown" finished-at="2026-06-13T11:30:40 IST" duration-ms="93" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:test.ParaBankTest@201b6b6f]" started-at="2026-06-11T17:01:12 IST" name="setUp" finished-at="2026-06-11T17:01:14 IST" duration-ms="1933" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:test.ParaBankTest@15cafec7]" started-at="2026-06-13T11:30:40 IST" name="setUp" finished-at="2026-06-13T11:30:41 IST" duration-ms="1688" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="openNewSavingsAccountTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:test.ParaBankTest@201b6b6f]" started-at="2026-06-11T17:01:14 IST" name="openNewSavingsAccountTest" data-provider="registrationData" finished-at="2026-06-11T17:01:18 IST" duration-ms="4151" status="PASS">
+        <test-method signature="openNewSavingsAccountTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:test.ParaBankTest@15cafec7]" started-at="2026-06-13T11:30:41 IST" name="openNewSavingsAccountTest" data-provider="registrationData" finished-at="2026-06-13T11:30:45 IST" duration-ms="3546" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -336,22 +356,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openNewSavingsAccountTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.ParaBankTest@201b6b6f]" started-at="2026-06-11T17:01:19 IST" name="tearDown" finished-at="2026-06-11T17:01:19 IST" duration-ms="86" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.ParaBankTest@15cafec7]" started-at="2026-06-13T11:30:45 IST" name="tearDown" finished-at="2026-06-13T11:30:45 IST" duration-ms="93" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:test.ParaBankTest@201b6b6f]" started-at="2026-06-11T17:01:19 IST" name="setUp" finished-at="2026-06-11T17:01:20 IST" duration-ms="1465" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:test.ParaBankTest@15cafec7]" started-at="2026-06-13T11:30:45 IST" name="setUp" finished-at="2026-06-13T11:30:47 IST" duration-ms="1917" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="transferFundsTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:test.ParaBankTest@201b6b6f]" started-at="2026-06-11T17:01:20 IST" name="transferFundsTest" data-provider="transferFundsData" finished-at="2026-06-11T17:01:25 IST" duration-ms="4770" status="PASS">
+        <test-method signature="transferFundsTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:test.ParaBankTest@15cafec7]" started-at="2026-06-13T11:30:47 IST" name="transferFundsTest" data-provider="transferFundsData" finished-at="2026-06-13T11:30:52 IST" duration-ms="4863" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -412,22 +432,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- transferFundsTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.ParaBankTest@201b6b6f]" started-at="2026-06-11T17:01:25 IST" name="tearDown" finished-at="2026-06-11T17:01:25 IST" duration-ms="87" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.ParaBankTest@15cafec7]" started-at="2026-06-13T11:30:52 IST" name="tearDown" finished-at="2026-06-13T11:30:52 IST" duration-ms="89" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:test.ParaBankTest@201b6b6f]" started-at="2026-06-11T17:01:25 IST" name="setUp" finished-at="2026-06-11T17:01:28 IST" duration-ms="3287" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:test.ParaBankTest@15cafec7]" started-at="2026-06-13T11:30:52 IST" name="setUp" finished-at="2026-06-13T11:30:54 IST" duration-ms="2601" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="billPaymentTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:test.ParaBankTest@201b6b6f]" started-at="2026-06-11T17:01:28 IST" name="billPaymentTest" data-provider="billPayData" finished-at="2026-06-11T17:01:32 IST" duration-ms="3346" status="PASS">
+        <test-method signature="billPaymentTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:test.ParaBankTest@15cafec7]" started-at="2026-06-13T11:30:54 IST" name="billPaymentTest" data-provider="billPayData" finished-at="2026-06-13T11:30:57 IST" duration-ms="2502" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -493,22 +513,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- billPaymentTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.ParaBankTest@201b6b6f]" started-at="2026-06-11T17:01:32 IST" name="tearDown" finished-at="2026-06-11T17:01:32 IST" duration-ms="89" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.ParaBankTest@15cafec7]" started-at="2026-06-13T11:30:57 IST" name="tearDown" finished-at="2026-06-13T11:30:57 IST" duration-ms="93" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:test.ParaBankTest@201b6b6f]" started-at="2026-06-11T17:01:32 IST" name="setUp" finished-at="2026-06-11T17:01:33 IST" duration-ms="1452" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:test.ParaBankTest@15cafec7]" started-at="2026-06-13T11:30:57 IST" name="setUp" finished-at="2026-06-13T11:30:59 IST" duration-ms="1763" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="findTransactionTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:test.ParaBankTest@201b6b6f]" started-at="2026-06-11T17:01:33 IST" name="findTransactionTest" data-provider="findTransactionData" finished-at="2026-06-11T17:01:38 IST" duration-ms="4522" status="PASS">
+        <test-method signature="findTransactionTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:test.ParaBankTest@15cafec7]" started-at="2026-06-13T11:30:59 IST" name="findTransactionTest" data-provider="findTransactionData" finished-at="2026-06-13T11:31:04 IST" duration-ms="4764" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -569,22 +589,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findTransactionTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.ParaBankTest@201b6b6f]" started-at="2026-06-11T17:01:38 IST" name="tearDown" finished-at="2026-06-11T17:01:38 IST" duration-ms="89" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.ParaBankTest@15cafec7]" started-at="2026-06-13T11:31:04 IST" name="tearDown" finished-at="2026-06-13T11:31:04 IST" duration-ms="97" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:test.ParaBankTest@201b6b6f]" started-at="2026-06-11T17:01:38 IST" name="setUp" finished-at="2026-06-11T17:01:39 IST" duration-ms="1628" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:test.ParaBankTest@15cafec7]" started-at="2026-06-13T11:31:04 IST" name="setUp" finished-at="2026-06-13T11:31:07 IST" duration-ms="3182" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="updateContactInfoTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:test.ParaBankTest@201b6b6f]" started-at="2026-06-11T17:01:39 IST" name="updateContactInfoTest" data-provider="updateContactData" finished-at="2026-06-11T17:01:44 IST" duration-ms="4183" status="PASS">
+        <test-method signature="updateContactInfoTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:test.ParaBankTest@15cafec7]" started-at="2026-06-13T11:31:07 IST" name="updateContactInfoTest" data-provider="updateContactData" finished-at="2026-06-13T11:31:10 IST" duration-ms="2820" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -675,22 +695,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateContactInfoTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.ParaBankTest@201b6b6f]" started-at="2026-06-11T17:01:44 IST" name="tearDown" finished-at="2026-06-11T17:01:44 IST" duration-ms="88" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.ParaBankTest@15cafec7]" started-at="2026-06-13T11:31:10 IST" name="tearDown" finished-at="2026-06-13T11:31:10 IST" duration-ms="94" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:test.ParaBankTest@201b6b6f]" started-at="2026-06-11T17:01:44 IST" name="setUp" finished-at="2026-06-11T17:01:47 IST" duration-ms="2996" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:test.ParaBankTest@15cafec7]" started-at="2026-06-13T11:31:10 IST" name="setUp" finished-at="2026-06-13T11:31:13 IST" duration-ms="2773" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="requestLoanTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:9, instance:test.ParaBankTest@201b6b6f]" started-at="2026-06-11T17:01:47 IST" name="requestLoanTest" data-provider="loanData" finished-at="2026-06-11T17:01:49 IST" duration-ms="2210" status="PASS">
+        <test-method signature="requestLoanTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:9, instance:test.ParaBankTest@15cafec7]" started-at="2026-06-13T11:31:13 IST" name="requestLoanTest" data-provider="loanData" finished-at="2026-06-13T11:31:15 IST" duration-ms="2494" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -756,22 +776,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- requestLoanTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.ParaBankTest@201b6b6f]" started-at="2026-06-11T17:01:49 IST" name="tearDown" finished-at="2026-06-11T17:01:49 IST" duration-ms="85" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.ParaBankTest@15cafec7]" started-at="2026-06-13T11:31:15 IST" name="tearDown" finished-at="2026-06-13T11:31:15 IST" duration-ms="93" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:test.ParaBankTest@201b6b6f]" started-at="2026-06-11T17:01:49 IST" name="setUp" finished-at="2026-06-11T17:01:50 IST" duration-ms="1441" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:test.ParaBankTest@15cafec7]" started-at="2026-06-13T11:31:15 IST" name="setUp" finished-at="2026-06-13T11:31:17 IST" duration-ms="1959" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="logoutTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:10, instance:test.ParaBankTest@201b6b6f]" started-at="2026-06-11T17:01:50 IST" name="logoutTest" data-provider="registrationData" finished-at="2026-06-11T17:01:54 IST" duration-ms="3346" status="PASS">
+        <test-method signature="logoutTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:10, instance:test.ParaBankTest@15cafec7]" started-at="2026-06-13T11:31:17 IST" name="logoutTest" data-provider="registrationData" finished-at="2026-06-13T11:31:21 IST" duration-ms="3791" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -827,11 +847,327 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.ParaBankTest@201b6b6f]" started-at="2026-06-11T17:01:54 IST" name="tearDown" finished-at="2026-06-11T17:01:54 IST" duration-ms="90" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.ParaBankTest@15cafec7]" started-at="2026-06-13T11:31:21 IST" name="tearDown" finished-at="2026-06-13T11:31:21 IST" duration-ms="148" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- test.ParaBankTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="test.NegativeTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:test.NegativeTest@3fffff43]" started-at="2026-06-13T11:31:21 IST" name="setUp" finished-at="2026-06-13T11:31:23 IST" duration-ms="2260" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="bug001_transferFundsAllowsNegativeAmount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:test.NegativeTest@3fffff43]" started-at="2026-06-13T11:31:23 IST" name="bug001_transferFundsAllowsNegativeAmount" data-provider="bugTransferNegative" finished-at="2026-06-13T11:31:28 IST" duration-ms="4421" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pankaj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vishwakarma]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Street 1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Lucknow]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[UP]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[226001]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9999999999]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[testuser]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[-100]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bug001_transferFundsAllowsNegativeAmount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.NegativeTest@3fffff43]" started-at="2026-06-13T11:31:28 IST" name="tearDown" finished-at="2026-06-13T11:31:28 IST" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:test.NegativeTest@3fffff43]" started-at="2026-06-13T11:31:28 IST" name="setUp" finished-at="2026-06-13T11:31:31 IST" duration-ms="2842" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="bug002_billPaymentAllowsNegativeAmount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:test.NegativeTest@3fffff43]" started-at="2026-06-13T11:31:31 IST" name="bug002_billPaymentAllowsNegativeAmount" data-provider="bugBillPaymentNegative" finished-at="2026-06-13T11:31:34 IST" duration-ms="3072" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pankaj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vishwakarma]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Street 1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Lucknow]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[UP]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[226001]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9999999999]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[testuser]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[-50]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bug002_billPaymentAllowsNegativeAmount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.NegativeTest@3fffff43]" started-at="2026-06-13T11:31:34 IST" name="tearDown" finished-at="2026-06-13T11:31:34 IST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:test.NegativeTest@3fffff43]" started-at="2026-06-13T11:31:34 IST" name="setUp" finished-at="2026-06-13T11:31:38 IST" duration-ms="3663" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="bug003_transferFundsAllowsSameSourceAndDestinationAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:test.NegativeTest@3fffff43]" started-at="2026-06-13T11:31:38 IST" name="bug003_transferFundsAllowsSameSourceAndDestinationAccount" data-provider="bugSameAccountTransfer" finished-at="2026-06-13T11:31:41 IST" duration-ms="3199" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pankaj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vishwakarma]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Street 1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Lucknow]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[UP]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[226001]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9999999999]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[testuser]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bug003_transferFundsAllowsSameSourceAndDestinationAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.NegativeTest@3fffff43]" started-at="2026-06-13T11:31:41 IST" name="tearDown" finished-at="2026-06-13T11:31:41 IST" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:test.NegativeTest@3fffff43]" started-at="2026-06-13T11:31:41 IST" name="setUp" finished-at="2026-06-13T11:31:43 IST" duration-ms="1722" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="bug004_requestLoanAllowsNegativeDownPayment(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:test.NegativeTest@3fffff43]" started-at="2026-06-13T11:31:43 IST" name="bug004_requestLoanAllowsNegativeDownPayment" data-provider="bugLoanNegative" finished-at="2026-06-13T11:31:47 IST" duration-ms="4330" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pankaj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vishwakarma]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Street 1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Lucknow]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[UP]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[226001]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9999999999]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[testuser]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[-10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bug004_requestLoanAllowsNegativeDownPayment -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.NegativeTest@3fffff43]" started-at="2026-06-13T11:31:47 IST" name="tearDown" finished-at="2026-06-13T11:31:47 IST" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.NegativeTest -->
+    </test> <!-- ParaBank Regression Tests -->
+  </suite> <!-- ParaBank Selenium TestNG Suite -->
 </testng-results>

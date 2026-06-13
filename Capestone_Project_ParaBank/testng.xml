@@ -20,7 +20,7 @@
 
             <class name="test.ParaBankTest"/>
 
-            <!-- <class name="test.NegativeTest"/> -->
+            <class name="test.NegativeTest"/> 
 
         </classes>
 
